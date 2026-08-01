@@ -1,7 +1,10 @@
 aid: shopeando
 name: Shopeando
-description: Shopeando is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Shopeando is a Mexican technology and logistics startup that manages the full international
+  shipping process, enabling businesses and individuals to import and export merchandise between China,
+  Europe, the United States and Mexico. Through its platform it coordinates cross-border logistics, customs
+  handling and last-mile delivery, and provides dedicated import, export and e-commerce fulfillment services
+  for online stores. Shopeando is backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/shopeando/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +12,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.shopeando.mx/wp-content/uploads/2023/10/logo-shopeando-blanco.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Shipping
+- Import Export
+- Cross-border Commerce
+- Ecommerce
+- Fulfillment
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shopeando-domain-security.yml
 - type: Website
-  url: https://shopeando.mx
+  url: https://www.shopeando.mx
+- type: Blog
+  url: https://www.shopeando.mx/blog/
+- type: Support
+  url: https://www.shopeando.mx/faq/
+- type: TermsOfService
+  url: https://www.shopeando.mx/terminos-y-condiciones/
+- type: PrivacyPolicy
+  url: https://www.shopeando.mx/aviso-de-privacidad/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
