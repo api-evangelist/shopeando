@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/shopeando/integrations
+- https://n8n.io/integrations/shopeando/
+- https://composio.dev/toolkits/shopeando
+- https://monid.ai/tools/shopeando
+checked:
+- https://composio.dev/toolkits/shopeando
+- https://monid.ai/tools/shopeando
+- https://n8n.io/integrations/shopeando/
+- https://zapier.com/apps/shopeando/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
